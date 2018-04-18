@@ -1,0 +1,431 @@
+{
+  "restaurants": [
+    {
+      "id": "bread-bakery",
+      "name": "FPS",
+      "category": "Jogos de Tiro",
+      "deliveryEstimate": "Online",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/breadbakery.png",
+      "about": "Entre os FPS atuais, Warface se destaca por ser um jogo de última geração, desenvolvido pela Crytek, a mesma criadora dos aclamados Crysis e Far Cry. Um jogo realista, para quem gosta de ação e gráficos com qualidade. Além da competição no modo PVP, você ainda conta com um Modo Cooperativo realmente desafiador, no qual realmente compensa evoluir seu personagem!",
+      "hours": "JOGO ONLINE"
+    },
+    {
+      "id": "burger-house",
+      "name": "AÇÃO",
+      "category": "Jogo eletrônico de ação",
+      "deliveryEstimate": "Online",
+      "rating": 3.5,
+      "imagePath": "assets/img/restaurants/burgerhouse.png",
+      "about": "Um jogo eletrônico de ação é um gênero de jogos eletrônicos que desafia a velocidade, reflexo e raciocínio rápido do jogador. Jogos de ação geralmente incluem conflitos estratégicos, desafios de exploração e necessidade de solucionar quebra-cabeças, mas estes não são elementos que definem tal gênero. ",
+      "hours": "JOGO ONLINE"
+    },
+    {
+      "id": "coffee-corner",
+      "name": "CORRIDA",
+      "category": "Velocidade",
+      "deliveryEstimate": "Online",
+      "rating": 4.8,
+      "imagePath": "assets/img/restaurants/coffeecorner.png",
+      "about": "Um jogo eletrônico de corrida é um gênero de jogos eletrônicos em que o jogador participa de competições de corrida com qualquer tipo de veículo terrestre, inclusive motocicletas e quadriciclos. Existem alternativas de jogos com veículos aquáticos, aéreos e até espaciais.",
+      "hours": "JOGO ONLINE"
+    },
+    {
+      "id": "green-food",
+      "name": "ESPORTES",
+      "category": "Saudável",
+      "deliveryEstimate": "Online",
+      "rating": 4.1,
+      "imagePath": "assets/img/restaurants/greenfood.png",
+      "about": "O jogo é definido como uma atividade de caráter lúdico com normas livremente estabelecidas pelos participantes. O esporte, por sua vez, tem regras preestabelecidas pelas diferentes instituições que regem cada modalidade esportiva, sejam ligas, federações, confederações ou comitês olímpicos.",
+      "hours": "JOGO ONLINE"
+    },
+    {
+      "id": "ice-cream",
+      "name": "ESTRATÉGIA",
+      "category": "Pensativo",
+      "deliveryEstimate": "Online",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/icy.png",
+      "about": "Jogo de estratégia é uma categoria de jogo (sejam de tabuleiro, de cartas, de videogames ou de computador), em que a habilidade dos jogadores em tomar decisões estratégicas supera a sorte como fator de determinação do vencedor.",
+      "hours": "JOGO ONLINE"
+    },
+    {
+      "id": "tasty-treats",
+      "name": "LUTA",
+      "category": "Artes Marciais",
+      "deliveryEstimate": "Online",
+      "rating": 4.4,
+      "imagePath": "assets/img/restaurants/tasty.png",
+      "about": "Jogo eletrônico de luta é o nome dado ao estilo de jogos de video game em que os personagens se enfrentam em combates que podem ser do tipo briga de rua.",
+      "hours": "JOGO ONLINE"
+    }
+  ],
+  "menu": [
+    {
+      "id": "cup-cake",
+      "imagePath": "assets/img/foods/cupcake.png",
+      "name": "CS GO",
+      "description": "Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.",
+      "price": 22.9,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "donut",
+      "imagePath": "assets/img/foods/donut.png",
+      "name": "Battlefield 4",
+      "description": "Battlefield 4 é um jogo de tiro em primeira pessoa desenvolvido pela EA Digital Illusions CE e publicado pela Electronic Arts.",
+      "price": 180.9,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "bread",
+      "imagePath": "assets/img/foods/bread.png",
+      "name": "Call of Duty - Black OPS ll",
+      "description": "Call of Duty: Black Ops II é um videojogo de tiro em primeira pessoa, desenvolvido pela Treyarch e publicado pela Activision.",
+      "price": 223,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "burger",
+      "imagePath": "assets/img/foods/burger.png",
+      "name": "Batman Arkam Knight",
+      "description": "Batman: Arkham Knight é um jogo eletrônico de ação-aventura produzido pela Rocksteady Studios e lançado mundialmente 23 de Junho de 2015 pela Warner Bros. Interactive Entertainment para PlayStation 4, Xbox One e Microsoft Windows.",
+      "price": 88,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "fries",
+      "imagePath": "assets/img/foods/fries.png",
+      "name": "The Last Of US",
+      "description": "The Last of Us é um jogo eletrônico de ação-aventura e sobrevivência desenvolvido pela Naughty Dog e publicado pela Sony Computer Entertainment. Ele foi lançado exclusivamente para PlayStation 3 em 14 de junho de 2013",
+      "price": 65.9,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "coke.png",
+      "imagePath": "assets/img/foods/coke.png",
+      "name": "GTA IV",
+      "description": "Grand Theft Auto IV é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.",
+      "price": 45,
+      "restaurantId": "burger-house"
+    },
+    {
+      "id": "capp",
+      "imagePath": "assets/img/foods/capp.png",
+      "name": "NEED FOR SPEED PAYBACK",
+      "description": "Corrida de Rua.",
+      "price": 99.9,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "espreso",
+      "imagePath": "assets/img/foods/espreso.png",
+      "name": "FORMULA 1 - 2016",
+      "description": "Corrida de grande equipes.",
+      "price": 12.5,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "starb",
+      "imagePath": "assets/img/foods/starb.png",
+      "name": "GRAN TURISMO",
+      "description": "Corrida de Turista.",
+      "price": 15.6,
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "id": "zlasagna",
+      "imagePath": "assets/img/foods/zlasagna.png",
+      "name": "FIFA 18",
+      "description": "FIFA 18 é um jogo eletrônico de futebol desenvolvido e publicado pela EA Sports, que foi lançado mundialmente em 1 de Novembro de 2017",
+      "price": 149,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "greensandwich",
+      "imagePath": "assets/img/foods/greensandwich.png",
+      "name": "PES 18",
+      "description": "Pro Evolution Soccer 2018 (popularmente conhecido pela sua abreviação PES 2018 e por Winning Eleven 2018 na Ásia), é um jogo de futebol desenvolvido pela PES Production e publicado pela Konami para PlayStation 4, Xbox One, Xbox 360, Playstation 3 e PC que pertence à série Pro Evolution Soccer",
+      "price": 10.5,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "ceasar",
+      "imagePath": "assets/img/foods/ceasar.png",
+      "name": "NBA 18 Live",
+      "description": " O caminho percorrido pela franquia de basquete da EA entre NBA Live 95 e NBA Live 18 é um dos mais curiosos da história dos games. Quando o primeiro jogo da saga foi lançado, no final de 1994 para SNES, Mega Drive e DOS, marcou época.",
+      "price": 339,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "sunday",
+      "imagePath": "assets/img/foods/sunday.png",
+      "name": "Warcraft Forzen",
+      "description": "Warcraft III: Reign of Chaos, desenvolvido e lançado pela Blizzard Entertainment em 2002, e expandido em 2003 com Warcraft III: The Frozen Throne, é um jogo eletrônico de estratégia em tempo real com elementos de RPG, feito para PCs.",
+      "price": 39.9,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "League of Legends",
+      "imagePath": "assets/img/foods/chocpop.png",
+      "name": "Picolé de Brigadeiro",
+      "description": "League of Legends é um jogo eletrônico do gênero multiplayer online battle arena, desenvolvido e publicado pela Riot Games para Microsoft Windows e Mac OS X.",
+      "price": 0,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "icestd.png",
+      "imagePath": "assets/img/foods/icestd.png",
+      "name": "World of Warcraft",
+      "description": "World of Warcraft é um jogo on-line, da produtora Blizzard lançado em 2004. O jogo se passa no mundo fantástico de Azeroth, introduzido no primeiro jogo da série, Warcraft: Orcs & Humans em 1994.",
+      "price": 99,
+      "restaurantId": "ice-cream"
+    },
+    {
+      "id": "cup",
+      "imagePath": "assets/img/foods/cup.png",
+      "name": "Mortal Kombat X",
+      "description": "Mortal Kombat X é um videojogo de luta da série Mortal Kombat. Foi produzido pelo estúdio NetherRealm Studios e publicado pela Warner Bros. ",
+      "price": 179,
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "id": "straw",
+      "imagePath": "assets/img/foods/straw.png",
+      "name": "Injustice 2",
+      "description": "Injustice 2 é um jogo de luta produzido pela NetherRealm Studios e publicado pela Warner Bros. Games em 16 de maio de 2017, para PlayStation 4 e Xbox One com versão para PC disponível em 14 de novembro de 2017.",
+      "price": 229.9,
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "id": "cake",
+      "imagePath": "assets/img/foods/cake.png",
+      "name": "Tekken 7",
+      "description": "Tekken 7 é o oitavo jogo da saga Tekken, sendo um jogo eletrônico de luta, em desenvolvido e publicado pela Bandai Namco Entertainment. Ele será o nono jogo da série de luta Tekken e também será o primeiro a utilizar o motor de jogo Unreal Engine 4.",
+      "price": 59.9,
+      "restaurantId": "tasty-treats"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Eduardo",
+      "date": "2018-04-17T18:25:43",
+      "rating": 5,
+      "comments": "Melhor Loja de Games.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Antônio",
+      "date": "2018-12-15T18:25:43",
+      "rating": 3,
+      "comments": "Satisfeito, porém a entrega atrasou.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Pouco intuitivo.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Professor Daniel",
+      "date": "2017-12-15T18:25:43",
+      "rating": 5,
+      "comments": "Comprei CS GO, não quero mais sair de casa!",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "João",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4,
+      "comments": "Sensacional, recomendo!",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Laila",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Tem uma grande cartela de jogos, e todos mais em conta que em outros sites!",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Suzana",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "Ótimo atendimento, porém os correios atrasaram muito na entrega =\\",
+      "restaurantId": "burger-house"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente opção! Recomendo!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Não me reembolsaram.",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.8,
+      "comments": "Tudo perfeito. Entrega, embalagem. Resultado? Melhor custo beneficio",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Muito rápida a entrega, mas é caro.",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente como sempre!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "João",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. Resolveram na HORA! Estou sempre pedindo e recomendando",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Marcelo",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Chegou muito rápido, antes mesmo da previsão",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Fatinha",
+      "date": "2017-01-23T18:25:43",
+      "rating": 2,
+      "comments": "Ñ gostei do atendimento",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Lucas",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Esperar 17 dias pra receber o pedido é INACEITÁVEL",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Jacira",
+      "date": "2017-02-01T18:25:43",
+      "rating": 4.5,
+      "comments": "Veio OK!",
+      "restaurantId": "ice-cream"
+    },
+    {
+      "name": "Ana",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Rápido!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Larissa",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "A taxa de entrega poderia ser mais barata.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Jarbas",
+      "date": "2016-12-15T18:25:43",
+      "rating": 4.7,
+      "comments": "Excelente e chegou muito rápido!",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Rafaela",
+      "date": "2017-01-12T18:25:43",
+      "rating": 5,
+      "comments": "Chegou rápido e perfeito!",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Julia",
+      "date": "2016-12-12T18:25:43",
+      "rating": 1.5,
+      "comments": "Já comprei em lojas melhores.",
+      "restaurantId": "tasty-treats"
+    },
+    {
+      "name": "Marília",
+      "date": "2016-12-20T18:25:43",
+      "rating": 4.5,
+      "comments": "SHOW.",
+      "restaurantId": "tasty-treats"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Oliveira",
+      "email": "duh_oliveirra@hotmail.com",
+      "emailConfirmation": "duh_oliveirra@hotmail.com",
+      "address": "Américo Pizzo",
+      "number": "4551",
+      "optionalAddress": "Casa",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Eduardo",
+      "email": "duh_oliveirra@hotmail.com",
+      "emailConfirmation": "duh_oliveirra@hotmail.com",
+      "address": "Américo Pizzo",
+      "number": "4551",
+      "optionalAddress": "Casa",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Jurandir",
+      "email": "Jurandir@gol.com",
+      "emailConfirmation": "Jurandir@gol.com",
+      "address": "Jurandi",
+      "number": "55",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "zlasagna"
+        },
+        {
+          "quantity": 1,
+          "menuId": "greensandwich"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
